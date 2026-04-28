@@ -1,0 +1,10 @@
+---------------------------------------------
+OSHONSOFT Z80 ASSEMBLER LISTING
+Line   Addr Opcode      Label   Instruction
+---------------------------------------------
+0001   0000 3A 40 00    Entry	LD	A,(40H)	; Get data.
+0002   0003 2F          	CPL		; Complement.
+0003   0004 32 41 00    	LD	(41H),A	; Store result.
+0004   0007             End	HALT
+Line 0004: Error: Reserved keyword in label column.
+Number of errors = 1
